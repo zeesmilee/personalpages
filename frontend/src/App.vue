@@ -4,7 +4,8 @@
       <RouterLink to="/">Trang chủ</RouterLink> |
       <RouterLink to="/projects">Dự án</RouterLink> |
       <RouterLink to="/skills">Kỹ năng</RouterLink> |
-      <RouterLink to="/contact">Liên hệ</RouterLink>
+      <RouterLink to="/contact">Liên hệ</RouterLink> |
+      <RouterLink to="/edit-profile">Chỉnh sửa hồ sơ</RouterLink> |
     </nav>
     <RouterView />
   </div>
@@ -19,7 +20,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #eaf6ff; /* 💡 Màu nền nhẹ nhàng */
+  background-color: #eaf6ff; 
 }
 
 .container {
